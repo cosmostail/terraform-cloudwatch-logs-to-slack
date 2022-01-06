@@ -1,0 +1,9 @@
+mode: Mainline
+branches:
+  feature:
+    mode: ContinuousDeployment
+    regex: ^features?/*
+    increment: Minor
+ignore:
+  sha: []
+merge-message-formats: {}
